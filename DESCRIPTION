@@ -1,6 +1,6 @@
 Package: gossipdata2008
 Title: Data for 2008 gossip study and sorority social network and reputation study
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person(given = "Nicole",
            family = "Hess",
