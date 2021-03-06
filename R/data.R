@@ -16,8 +16,8 @@
 #'   \item{\code{Ally_location}}{character Office or neighborhood friend(s)}
 #'   \item{\code{WorkPos}}{double Positive work gossip score}
 #'   \item{\code{WorkNeg}}{double Negative work gossip score}
-#'   \item{\code{PersonalPos}}{double Positive family gossip score}
-#'   \item{\code{PersonalNeg}}{double Negative family gossip score}
+#'   \item{\code{FamilyPos}}{double Positive family gossip score}
+#'   \item{\code{FamilyNeg}}{double Negative family gossip score}
 #'   \item{\code{TastePos}}{double Positive gossip about taste in art}
 #'   \item{\code{TasteNeg}}{double Negative gossip about taste in art}
 #'   \item{\code{BecomeFriends}}{double How likely is it that you would become friends with Elizabeth (Dave)?}
@@ -29,6 +29,26 @@
 #'}
 #' @details Data collected from Mechanical Turk in 2008
 "gossip"
+
+#' @title ratings
+#' @description Ratings data for 2008 gossip study. See Hess and Hagen (2021) The impact of resource value, resource contestedness, and coalitions on gossiping
+#' @format A data frame with 131 rows and 12 variables:
+#' \describe{
+#'   \item{\code{ID}}{double Participant ID}
+#'   \item{\code{Age}}{double Participant age}
+#'   \item{\code{Nationality}}{character Participant nationality}
+#'   \item{\code{Occupation}}{character Participant occupation}
+#'   \item{\code{Sex}}{character Participant sex}
+#'   \item{\code{Condition}}{double Experimental condition}
+#'   \item{\code{WorkPos}}{double Positive work gossip score}
+#'   \item{\code{WorkNeg}}{double Negative work gossip score}
+#'   \item{\code{FamilyPos}}{double Positive family gossip score}
+#'   \item{\code{FamilyNeg}}{double Negative family gossip score}
+#'   \item{\code{TastePos}}{double Positive gossip about taste in art}
+#'   \item{\code{TasteNeg}}{double Negative gossip about taste in art}
+#'}
+#' @details Ratings data collected from Mechanical Turk in 2008
+"ratings"
 
 #' @title nina
 #' @description Sorority data on real-life social network closeness and reputation of fictional adversary.
